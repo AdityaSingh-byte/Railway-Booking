@@ -8,6 +8,7 @@ export const searchTrains = (searchTerm) => {
         const response = await axios.get(`http://localhost:3000/TrainDetails?train_number=${searchTerm}`);
         dispatch({ type: SEARCH_TRAINS_SUCCESS, payload: response.data });
         console.log(response.data);
+        console.log(response.data);
       } catch (error) {
         dispatch({ type: SEARCH_TRAINS_FAILURE, error: error.message });
       }
