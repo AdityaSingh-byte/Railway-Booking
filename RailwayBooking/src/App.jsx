@@ -13,6 +13,7 @@ import TrainTicket from './Components/TrainTicket';
 import TrailLive from './Components/TrailLive';
 import Booking from './Components/Booking';
 import Profile from './Components/Profile';
+import PaymentGateway from './Components/PaymentGateway';
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/live" element={<TrailLive/>} ></Route>
         <Route path="/booking" element={<Booking/>} ></Route>
         <Route path="/profile" element={<Profile/>} ></Route>
+        <Route path="/payment" element={<PaymentGateway/>} ></Route>
       </Routes>
     
     </div>

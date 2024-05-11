@@ -10,7 +10,7 @@ const Profile = () => {
   return (
     <div>
       <h2>Profile</h2>
-      <h3>User: {currentUser.username}</h3>
+      <h3>User:</h3>
       <h3>Booked Tickets:</h3>
       {ticketInfo && ticketInfo.length > 0 ? (
         <ul>

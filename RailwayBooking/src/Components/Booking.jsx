@@ -60,7 +60,7 @@ const Booking = () => {
         totalAmount: totalAmount,
       };
       dispatch(storeTicketInfo({ user: currentUser, ticketInfo: ticketInfo }));
-    navigate('/profile');
+    navigate('/payment');
   };
 
   return (
