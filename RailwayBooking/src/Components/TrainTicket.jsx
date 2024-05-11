@@ -15,8 +15,14 @@ const TrainSearch = () => {
     const handleSearch = () => {
       dispatch(searchTrains(source, destination));
     };
-    console.log(trainData);
   
+    useEffect(() => {
+        // Reset input fields and trainData state when location changes (route changes)
+        setSource('');
+        setDestination('');
+        dispatch(searchTrains(null, null)); // Pass null values to clear previous search results
+    }, [location, dispatch]);
+   
     return (
         <>
        
@@ -30,6 +36,7 @@ const TrainSearch = () => {
         {trainData && trainData.length>0 && trainData.map((train) => (
           <div key={train.TrainId} className="col-md-4 mb-3">
             <TrainDetailsCard train={train} />
+          
           </div>
         ))}
       </div>

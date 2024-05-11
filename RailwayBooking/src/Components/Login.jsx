@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import authSlice, { authActions } from '../Redux/store/auth-slice';
 import { userActions } from '../Redux/store/user-slice';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import {
   Flex,
   Heading,
@@ -14,7 +14,7 @@ import {
   InputLeftElement,
   chakra,
   Box,
-  Link,
+ 
   Avatar,
   FormControl,
   FormHelperText,
@@ -141,7 +141,7 @@ const users = await usersJsonPromise; // Await the Promise to get the actual JSO
       </Stack>
       <Box>
         New to us?{" "}
-        <Link color="teal.500" href="./SignUp.jsx">
+        <Link to='/signup' color="teal.500" >
           Sign Up
         </Link>
       </Box>
