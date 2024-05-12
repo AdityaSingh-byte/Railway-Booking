@@ -42,8 +42,8 @@ const Profile = () => {
                   <Td>{ticketInfo.class}</Td>
                   <Td>{ticketInfo.totalAmount}</Td>
                   <Td>{ticketInfo.train?.TrainName}</Td>
-                  <Td>{ticketInfo.train?.destination}</Td>
                   <Td>{ticketInfo.train?.source}</Td>
+                  <Td>{ticketInfo.train?.destination}</Td>
                   <Td>
                     <ul>
                       {ticketInfo.passengers.map((passenger, passengerIndex) => (
