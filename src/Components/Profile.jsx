@@ -34,6 +34,7 @@ const Profile = () => {
                   <Th>Source</Th>
                   <Th>Destination</Th>
                   <Th>Passengers</Th>
+                  <Th>Seats No</Th> {/* New column for Seats No */}
                 </Tr>
               </Thead>
               <Tbody>
@@ -55,6 +56,7 @@ const Profile = () => {
                       ))}
                     </ul>
                   </Td>
+                  <Td>{Math.floor(Math.random() * 100) + 1}</Td> 
                 </Tr>
               </Tbody>
             </Table>
