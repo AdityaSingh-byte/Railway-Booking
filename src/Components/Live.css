@@ -8,7 +8,7 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    animation: moveTrain linear 5s forwards;
+    animation: moveTrain linear 3s forwards;
     z-index: 999;
   }
   

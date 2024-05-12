@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { searchTrains } from '../Redux/Action/TrainTicket';
 import TrainDetailsCard from './TrainDetailsCard';
 import { Input ,Flex ,Button } from '@chakra-ui/react';
-
+import trainBackGround from '../assets/steam-train-chugs-through-mountain-forest-scene-generative-ai.jpg'
 const TrainSearch = () => {
     const [source, setSource] = useState('');
     const [destination, setDestination] = useState('');
@@ -22,7 +22,7 @@ const TrainSearch = () => {
    
     return (
         <>
-        <div style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/steam-train-chugs-through-mountain-forest-scene-generative-ai_188544-8072.jpg?w=1380&t=st=1715520575~exp=1715521175~hmac=29b88a9e14195d068e1afbe21ae272d3de61892a64a17ad3f79faac45e6b7e35")', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '90vh' }}>
+        <div style={{ backgroundImage: `url("${trainBackGround}")`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '90vh' }}>
       <div className='container'  >
         
         <div style={{display:'flex' , justifyContent:'center'}}>

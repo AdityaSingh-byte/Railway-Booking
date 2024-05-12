@@ -1,58 +1,58 @@
-import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import authSlice, { authActions } from '../Redux/store/auth-slice';
-import {Link} from 'react-router-dom'
-import Login from './Login';
-import SignUp from './SignUp';
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { Container, Flex, Heading, Button, Image, Link as ChakraLink } from '@chakra-ui/react';
+import { FaRegUserCircle } from 'react-icons/fa';
+import { authActions } from '../Redux/store/auth-slice';
 import trainImage from '../assets/Circle-icons-train.png';
 
 const Navbar = () => {
-  
-  const isLoggedIn = useSelector(state=>state.auth.isLoggedIn);
-  const user = useSelector(state=>state.user.user);
+  const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
+  const user = useSelector(state => state.user.user);
   const dispatch = useDispatch();
-  console.log(isLoggedIn);
-  const handleLogout =()=>{
+
+  const handleLogout = () => {
     dispatch(authActions.logout());
-  }
+  };
+
   return (
-    <div className="container">
-    <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <div className="col-md-3 mb-2 mb-md-0">
-        <a href="/" className="d-inline-flex link-body-emphasis text-decoration-none">
-          <img src={trainImage} alt=""  style={{width:'70%'}}/>
-        </a>
-      </div>
-
-      <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><Link to='/trainTicket' className="nav-link px-2 link-secondary">Train Tickets</Link></li>
-        <li><a href="#" className="nav-link px-2">Bus Booking</a></li>
-        <li><a href="#" className="nav-link px-2">Food On Train</a></li>
-        <li><Link to="/trainSearch" className="nav-link px-2">Train Information</Link></li>
-        <li><Link to="/live" className="nav-link px-2">Live Location</Link></li>
-        
-      </ul>
-
-      <div className="col-md-3 text-end">
-          {isLoggedIn ? (<>
-            <p>Welcome {user.username}</p>
-            <button onClick={handleLogout}>Logout</button>
-          </>
-          ) : (
-            <Link to="/login">
-              <button type="button" className="btn btn-outline-primary me-2">Login</button>
-            </Link>
-          )}
-          {!isLoggedIn && <Link to="/signup">
-            <button type="button" className="btn btn-primary">Sign-up</button>
-          </Link> 
-          }
-         
+    <Container maxW="container.lg">
+      <Flex justifyContent="space-between" alignItems="center" py={3} borderBottom="1px solid" borderColor="gray.200">
+        <div >
+          <a href="/" className="d-inline-flex link-body-emphasis text-decoration-none">
+            <Image src={trainImage} alt="" boxSize="70px" />
+          </a>
         </div>
-    </header>
-  </div>
-   
-  )
-}
+        <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><Link to='/trainTicket' className="nav-link px-2 link-secondary">Train Tickets</Link></li>
+          <li><a href="#" className="nav-link px-2">Bus Booking</a></li>
+          <li><a href="#" className="nav-link px-2">Food On Train</a></li>
+          <li><Link to="/trainSearch" className="nav-link px-2">Train Information</Link></li>
+          <li><Link to="/live" className="nav-link px-2">Live Location</Link></li>
+        </ul>
+        <Flex alignItems="center">
+          {isLoggedIn ? (
+            <Flex alignItems="center" gap={"10px"}>
+              <h5 style={{margin:"10px"}}>{user.username}</h5>
+              <Link to="/profile" as={ChakraLink}>
+                <FaRegUserCircle size={"30"} />
+              </Link>
+              <Button variant="outline" colorScheme="blue" ml={2} onClick={handleLogout}>Logout</Button>
+            </Flex>
+          ) : (
+            <>
+              <Link to="/login" as={ChakraLink}>
+                <Button variant="outline" colorScheme="blue" mr={2}>Login</Button>
+              </Link>
+              <Link to="/signup" as={ChakraLink}>
+                <Button colorScheme="blue">Sign-up</Button>
+              </Link>
+            </>
+          )}
+        </Flex>
+      </Flex>
+    </Container>
+  );
+};
 
-export default Navbar
+export default Navbar;

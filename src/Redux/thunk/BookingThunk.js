@@ -6,7 +6,7 @@ export const fetchTrainDetails = createAsyncThunk(
   'trainBooking/fetchTrainDetails',
   async ({ source, destination }) => {
     try {
-      const response = await axios.get(`http://localhost:3000/TrainDetails?source=${source}&destination=${destination}`);
+      const response = await axios.get(`https://railway-booking-3z2u.onrender.com/TrainDetails?source=${source}&destination=${destination}`);
       return response.data;
     } catch (error) {
       throw error;

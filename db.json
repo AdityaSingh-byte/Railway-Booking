@@ -9,16 +9,6 @@
       "id": "2",
       "username": "user2",
       "password": "password2"
-    },
-    {
-      "id": "e5ac",
-      "username": "asdasdas",
-      "password": "dasdasdasd"
-    },
-    {
-      "id": "e2ae",
-      "username": "asdasd",
-      "password": "zxczxczxczxczxczxc"
     }
   ],
   "TrainDetails": [
@@ -2566,7 +2556,7 @@
       "id": "b88c"
     },{
       "TrainId": 1591,
-      "TrainName": "Delhi Duronto",
+      "TrainName": "Delhi EXP",
       "train_number": "1502",
       "source": "Delhi",
       "destination": "Jaipur",
@@ -2611,8 +2601,308 @@
           "Running_station": "New Delhi"
         }
       ],
-      "departure_time": "08:30",
-      "arrival_time": "12:45",
+      "departure_time": "09:30",
+      "arrival_time": "11:45",
+      "id": "8327"
+    },    {
+      "TrainId": 1602,
+      "TrainName": "Delhi MUF",
+      "train_number": "1602",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "12:30",
+      "arrival_time": "06:45",
+      "id": "8327"
+    },    {
+      "TrainId": 1672,
+      "TrainName": "Delhi EXT",
+      "train_number": "1672",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "10:30",
+      "arrival_time": "04:45",
+      "id": "8327"
+    },    {
+      "TrainId": 17777,
+      "TrainName": "Delhi Duronto",
+      "train_number": "17777",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "00:30",
+      "arrival_time": "06:45",
+      "id": "8327"
+    },    {
+      "TrainId": 1890,
+      "TrainName": "Delhi Duronto",
+      "train_number": "1890",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "09:30",
+      "arrival_time": "13:45",
+      "id": "8327"
+    },    {
+      "TrainId": 14722,
+      "TrainName": "Delhi Duronto",
+      "train_number": "14722",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "09:30",
+      "arrival_time": "14:45",
+      "id": "8327"
+    },    {
+      "TrainId": 10790,
+      "TrainName": "Delhi Duronto",
+      "train_number": "10790",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "10:30",
+      "arrival_time": "15:45",
       "id": "8327"
     }
   ]
