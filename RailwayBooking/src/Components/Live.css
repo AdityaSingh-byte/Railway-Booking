@@ -1,0 +1,88 @@
+.train-journey {
+    position: relative;
+   
+  }
+  
+  .train {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    animation: moveTrain linear 5s forwards;
+    z-index: 999;
+  }
+  
+  @keyframes moveTrain {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 47.5%; 
+    }
+  }
+  
+  .journey-line {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+  
+  }
+  
+  .source,
+  .current,
+  .destination {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white ;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .source {
+    left: 0;
+  }
+  
+  .current {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .destination {
+    right: 0;
+  }
+  .station-label {
+    color: white;
+    margin-top: 20px;
+    position: absolute;
+    top: 75%; /* Adjust vertical position as needed */
+    text-align: center;
+    width: 100%;
+  }
+  
+  .start-label {
+    left: -50%; /* Align with source */
+  }
+  
+  .middle-label {
+    left: 50%; /* Align with current */
+    transform: translateX(-50%);
+  }
+  
+  .end-label {
+    left: 50%; 
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+  .inputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 50px 20px;
+  }

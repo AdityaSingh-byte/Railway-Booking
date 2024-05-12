@@ -14,7 +14,7 @@ import TrailLive from './Components/TrailLive';
 import Booking from './Components/Booking';
 import Profile from './Components/Profile';
 import PaymentGateway from './Components/PaymentGateway';
-
+import Footer from './Components/Footer';
 const App = () => {
 
   
@@ -23,7 +23,7 @@ const App = () => {
      
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} ></Route>
+        <Route path="/" element={<TrainTicket/>} ></Route>
         <Route path="/trainTicket" element={<TrainTicket/>} ></Route>
         <Route path="/login" element={<Login/>} ></Route>
         <Route path="/signup" element={<SignUp/>} ></Route>
@@ -31,8 +31,9 @@ const App = () => {
         <Route path="/booking" element={<Booking/>} ></Route>
         <Route path="/profile" element={<Profile/>} ></Route>
         <Route path="/payment" element={<PaymentGateway/>} ></Route>
+        <Route path="/trainSearch" element={<TrainSearch/>} ></Route>
       </Routes>
-    
+      <Footer></Footer>
     </div>
   );
 };

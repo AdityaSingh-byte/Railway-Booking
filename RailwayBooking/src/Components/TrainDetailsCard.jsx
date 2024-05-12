@@ -36,29 +36,53 @@ const TrainDetailsCard = ({ train }) => {
   
 
   return (
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">{train.TrainName}</h5>
-        <p className="card-text">Train Number: {train.train_number}</p>
-        <p className="card-text">Source: {train.source}</p>
-        <p className="card-text">Destination: {train.destination}</p>
-        <div>
-          <p>Select Class:</p>
-          {train.Classes.map((cls) => (
-            <Button
+    <div style={{backgroundColor:'white'}} >
+       <div className='container main ' style={{backgroundColor:'white'}}>
+        <div className='Name' style={{display:'flex' , justifyContent:'center'}}>
+          <p>{train.TrainId}</p>
+          <p>{train.TrainName}</p>
+        </div>
+        <div className='place'>
+          <div className='Departure'>
+            <p>{train.source}</p>
+            <p>{train.departure_time}</p>
+          </div>
+          <div className="journey-line1">
+         
+            
+          </div>
+          <div className='arrival'>
+            <p>{train.destination}</p>
+            <p>{train.arrival_time}</p>
+          </div>
+        </div>
+        <div style={{display:'flex' , justifyContent:'center'}}>
+        {train.Classes.map((cls) => (
+          <>
+         
+            <Button margin="10px"
               key={cls.Class}
               onClick={() => handleSelectClass(cls.Class)}
               variant='outline'
               _active={{ bg: '#dddfe2' }}
-              isSelected={cls.Class === selectedClass} // Add this line
+              isSelected={cls.Class === selectedClass} 
             >
-              {cls.Class}
+              {cls.Class} 
+              
             </Button>
+          
+            </>
           ))}
         </div>
-        <Button onClick={handleSubmitWithLogin} colorScheme='blue'>Book Ticket</Button>
+          
+          <div style={{display:'flex' , justifyContent:'center'}}>
+          <Button onClick={handleSubmitWithLogin} colorScheme='blue'>Book Ticket</Button>
+          </div>
+             
+        </div>  
+       
       </div>
-    </div>
+   
   );
 };
 

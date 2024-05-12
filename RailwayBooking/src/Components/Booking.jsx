@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { MdOutlineCurrencyRupee } from "react-icons/md";
 import { storeTicketInfo } from '../Redux/store/Booking-slice';
+import { Input,Button } from '@chakra-ui/react'
 const Booking = () => {
   const selectedTrain = useSelector(state => state.trainBooking.selectedTrain);
   const selectedClass = useSelector(state => state.trainBooking.selectedClass);
@@ -64,7 +66,7 @@ const Booking = () => {
   };
 
   return (
-    <div>
+    <div className='container'>
       <h2>Booking Details</h2>
       <h3>Train: {selectedTrain.TrainName}</h3>
       <h3>Class: {selectedClass}</h3>
@@ -78,16 +80,21 @@ const Booking = () => {
           </div>
         ))}
       </div>
+      <div style={{display:'flex'}}>
+        <Input type="text" placeholder="Passenger Name" value={name} onChange={(e) => setName(e.target.value)} />
+        <Input type="number" placeholder="Passenger Age" value={age} onChange={(e) => setAge(e.target.value)} />
+        </div>
+        <div>
+        <Input type="text" placeholder="Passenger Address" value={address} onChange={(e) => setAddress(e.target.value)} />
+        <Button colorScheme='blue' onClick={handlePassenger}>Add Passenger</Button>
+        </div>
+        
+     
       <div>
-        <input type="text" placeholder="Passenger Name" value={name} onChange={(e) => setName(e.target.value)} />
-        <input type="number" placeholder="Passenger Age" value={age} onChange={(e) => setAge(e.target.value)} />
-        <input type="text" placeholder="Passenger Address" value={address} onChange={(e) => setAddress(e.target.value)} />
-        <button onClick={handlePassenger}>Add Passenger</button>
+        <p style={{display:'flex' ,alignItems:'center'}}><MdOutlineCurrencyRupee />
+ {totalAmount}INR</p>
       </div>
-      <div>
-        <p>Total Amount: {totalAmount}INR</p>
-      </div>
-      <button onClick={handleBooking}>Confirm Booking</button>
+      <Button colorScheme='blue' onClick={handleBooking}>Confirm Booking</Button>
     </div>
   );
 };
