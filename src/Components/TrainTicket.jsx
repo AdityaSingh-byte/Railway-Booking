@@ -40,7 +40,7 @@ const TrainSearch = () => {
         </div> 
         <div >
         {trainData && trainData.length>0 && trainData.map((train) => (
-          <div key={train.TrainId} >
+          <div key={train.TrainId} style={{margin:"10px", boxShadow: 'rgba(0, 0, 0, 0.12) 0px 1px 3px,' }}>
             <TrainDetailsCard train={train} />
           
           </div>

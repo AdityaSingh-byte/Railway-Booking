@@ -36,7 +36,7 @@ const TrainDetailsCard = ({ train }) => {
   
 
   return (
-    <div style={{backgroundColor:'white'}} >
+    <div style={{backgroundColor:'white' , boxShadow: 'rgba(0, 0, 0, 0.12) 0px 1px 3px', borderRadius:"10px"}} >
        <div className='container main ' style={{backgroundColor:'white'}}>
         <div className='Name' style={{display:'flex' , justifyContent:'center'}}>
           <p>{train.TrainId}</p>
