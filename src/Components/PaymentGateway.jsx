@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import the emailjs library
-import QRCode from 'qrcode.react'; // Import the QRCode component
-
+import emailjs from 'emailjs-com'; 
+import QRCode from 'qrcode.react';
+import { Button,Input } from '@chakra-ui/react';
+import trainBackGround from '../assets/steam-train-chugs-through-mountain-forest-scene-generative-ai.jpg'
 const PaymentGateway = ({ ticketPrice }) => {
   const [paymentMethod, setPaymentMethod] = useState('');
   const [cardDetails, setCardDetails] = useState({
@@ -77,70 +78,83 @@ const PaymentGateway = ({ ticketPrice }) => {
   };
 
   return (
-    <div>
-      <h2>Payment Gateway</h2>
-      <div>
-        <button onClick={() => handlePaymentMethod('UPI')}>UPI</button>
-        <button onClick={() => handlePaymentMethod('Card')}>Card</button>
+    <div style={{ backgroundImage: `url("${trainBackGround}")`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '90vh' }}>
+
+
+    <div className='container' style={{display:'flex',justifyContent:'center',alignContent:'center'}}>
+     <div style={{ boxShadow: '0px 7px 29px rgba(100, 100, 111, 0.2)' ,borderRadius:'10px',padding:'20px' ,height:'auto',width:'500px', backgroundColor:'white' ,marginTop:'250px'}}>
+
+
+     
+      <h2 style={{textAlign:'center'}}>Payment Gateway</h2>
+      <div style={{ display:'flex' ,gap:'50px', justifyContent:'center', margin:'10px'}}>
+        <Button onClick={() => handlePaymentMethod('UPI')}>UPI</Button>
+        <Button onClick={() => handlePaymentMethod('Card')}>Card</Button>
       </div>
 
       {paymentMethod === 'UPI' && (
-        <div>
+        <div style={{ display:'flex',justifyContent:'center' ,margin:'20px 20px 20px 20px'}}>
           {/* Display QR code for UPI payment */}
           <QRCode value="random_placeholder_string" /> {/* Placeholder QR code */}
-          <p>Total Amount: {ticketPrice}</p>
+          
         </div>
       )}
 
       {paymentMethod === 'Card' && (
-        <div>
-          <input
+        <div >
+          <Input
             type="text"
             placeholder="Card Number"
             name="cardNumber"
             value={cardDetails.cardNumber}
             onChange={handleCardDetailsChange}
           />
-          <input
+          <div style={{display:'flex' ,gap:'20px',marginTop:'10px',marginBottom:'10px'}}>
+          <Input
             type="text"
             placeholder="Expiry Date"
             name="expiryDate"
             value={cardDetails.expiryDate}
             onChange={handleCardDetailsChange}
           />
-          <input
+          <Input
             type="text"
             placeholder="CVV"
             name="cvv"
             value={cardDetails.cvv}
             onChange={handleCardDetailsChange}
           />
-          <input
+          </div>
+         
+          <Input
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            style={{marginBottom:'10px'}}
           />
-          <button onClick={sendOTP}>Send OTP</button>
+          <Button onClick={sendOTP}>Send OTP</Button>
 
           {otpSent && (
             <div className="otpverify">
-              <input
+              <Input
                 type="text"
                 placeholder="Enter OTP"
                 value={otpInput}
                 onChange={(e) => setOtpInput(e.target.value)}
               />
-              <button onClick={verifyOTP}>Verify OTP</button>
+              <Button colorScheme='blue' onClick={verifyOTP}>Verify OTP</Button>
             </div>
           )}
 
           {verificationSuccess && <p>Email address verified successfully!</p>}
           
-          <button onClick={handlePayment}>Make Payment</button>
+          <Button margin='10px'colorScheme='blue' onClick={handlePayment}>Make Payment</Button>
           {paymentSuccess && <p>Payment successful!</p>}
         </div>
       )}
+    </div>
+    </div>
     </div>
   );
 };
