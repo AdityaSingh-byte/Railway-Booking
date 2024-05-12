@@ -1,0 +1,72 @@
+
+.Name{
+    display: flex;
+    gap: 10px;
+    >p:nth-of-type(2){
+        font-weight: bolder;
+    }
+    >p:nth-of-type(1){
+        color: #999;
+    }
+}
+.Departure{
+    display: flex;
+    gap: 10px;
+    >p:nth-of-type(1){
+        font-weight: bolder;
+    }
+    >p:nth-of-type(2){
+        color: #999;
+    }
+}
+.arrival{
+    display: flex;
+    gap: 10px;
+    >p:nth-of-type(1){
+        font-weight: bolder;
+    }
+    >p:nth-of-type(2){
+        color: #999;
+    }
+}
+.place{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+   
+}
+.main{
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.journey-line1 {
+    
+    top: 50%;
+    left: 10%;
+    width: 75%;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 15px;
+
+  }
+  
+ 
+  
+  .destination1 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    right: -100%;
+  }
+ 

@@ -1,0 +1,2619 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "password2"
+    },
+    {
+      "id": "e5ac",
+      "username": "asdasdas",
+      "password": "dasdasdasd"
+    },
+    {
+      "id": "e2ae",
+      "username": "asdasd",
+      "password": "zxczxczxczxczxczxc"
+    }
+  ],
+  "TrainDetails": [
+    {
+      "TrainId": 1501,
+      "TrainName": "Mumbai Rajdhani",
+      "train_number": "1501",
+      "source": "Mumbai",
+      "destination": "Ahmedabad",
+      "TotalSeats": 350,
+      "Date": [
+      
+          "2024-05-12",
+          "2024-05-13",
+           "2024-05-14",
+           "2024-05-15"
+      
+      ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 90,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 80,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 70,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 60,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 50,
+          "Price": 200
+        }
+      ],
+      "current_location": "Mumbai Central"
+  
+      ,
+      "departure_time": "07:45",
+      "arrival_time": "14:30",
+      "id": "cc57"
+    },
+    {
+      "TrainId": 1502,
+      "TrainName": "Delhi Duronto",
+      "train_number": "1502",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+  
+          "New Delhi"
+     
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "12:45",
+      "id": "8327"
+    },
+    {
+      "TrainId": 1503,
+      "TrainName": "Chennai Express",
+      "train_number": "1503",
+      "source": "Chennai",
+      "destination": "Bangalore",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+    
+        "Chennai Central"
+      
+      ,
+      "departure_time": "08:15",
+      "arrival_time": "12:00",
+      "id": "ca25"
+    },
+    {
+      "TrainId": 1504,
+      "TrainName": "Kolkata Shatabdi",
+      "train_number": "1504",
+      "source": "Kolkata",
+      "destination": "Patna",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+       
+         "Howrah"
+       
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "13:30",
+      "id": "4163"
+    },
+    {
+      "TrainId": 1505,
+      "TrainName": "Hyderabad Express",
+      "train_number": "1505",
+      "source": "Hyderabad",
+      "destination": "Vijayawada",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 670
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 570
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 470
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 370
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 270
+        }
+      ],
+      "current_location": 
+    
+         "Hyderabad Deccan"
+      
+      ,
+      "departure_time": "08:45",
+      "arrival_time": "12:15",
+      "id": "a0fa"
+    },
+    {
+      "TrainId": 1506,
+      "TrainName": "Bangalore Express",
+      "train_number": "1506",
+      "source": "Bangalore",
+      "destination": "Chennai",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+    
+      "Bangalore City"
+      
+      ,
+      "departure_time": "07:30",
+      "arrival_time": "11:45",
+      "id": "7e25"
+    },
+    {
+      "TrainId": 1507,
+      "TrainName": "Pune Express",
+      "train_number": "1507",
+      "source": "Pune",
+      "destination": "Mumbai",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": 
+       
+          "Pune Junction"
+       
+      ,
+      "departure_time": "08:15",
+      "arrival_time": "12:30",
+      "id": "6824"
+    },
+    {
+      "TrainId": 1508,
+      "TrainName": "Jaipur Express",
+      "train_number": "1508",
+      "source": "Jaipur",
+      "destination": "Delhi",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+       
+          "Jaipur Junction"
+      
+      ,
+      "departure_time": "08:45",
+      "arrival_time": "13:00",
+      "id": "eb39"
+    },
+    {
+      "TrainId": 1509,
+      "TrainName": "Lucknow Express",
+      "train_number": "1509",
+      "source": "Lucknow",
+      "destination": "Kanpur",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 580
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 480
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 380
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 280
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 180
+        }
+      ],
+      "current_location": 
+        
+           "Lucknow Junction"
+        ,
+      
+      "departure_time": "09:30",
+      "arrival_time": "13:15",
+      "id": "6ed2"
+    },
+    {
+      "TrainId": 1510,
+      "TrainName": "Amritsar Express",
+      "train_number": "1510",
+      "source": "Amritsar",
+      "destination": "Jalandhar",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        "Amritsar Junction"
+       
+      ,
+      "departure_time": "08:00",
+      "arrival_time": "11:00",
+      "id": "6b6f"
+    },
+    {
+      "TrainId": 1511,
+      "TrainName": "Guwahati Express",
+      "train_number": "1511",
+      "source": "Guwahati",
+      "destination": "Shillong",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+          "Guwahati Junction"
+        
+      ,
+      "departure_time": "07:45",
+      "arrival_time": "11:00",
+      "id": "2777"
+    },
+    {
+      "TrainId": 1512,
+      "TrainName": "Bhopal Express",
+      "train_number": "1512",
+      "source": "Bhopal",
+      "destination": "Indore",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+         "Bhopal Junction"
+        
+      ,
+      "departure_time": "08:15",
+      "arrival_time": "12:30",
+      "id": "e151"
+    },
+    {
+      "TrainId": 1513,
+      "TrainName": "Trivandrum Express",
+      "train_number": "1513",
+      "source": "Trivandrum",
+      "destination": "Kochi",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        "Trivandrum Central"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "13:15",
+      "id": "bf76"
+    },
+    {
+      "TrainId": 1514,
+      "TrainName": "Ranchi Express",
+      "train_number": "1514",
+      "source": "Ranchi",
+      "destination": "Jamshedpur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+         "Ranchi Junction"
+        
+      ,
+      "departure_time": "07:30",
+      "arrival_time": "10:45",
+      "id": "0ddc"
+    },
+    {
+      "TrainId": 1515,
+      "TrainName": "Nagpur Express",
+      "train_number": "1515",
+      "source": "Nagpur",
+      "destination": "Aurangabad",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        "Nagpur Junction"
+        
+      ,
+      "departure_time": "08:00",
+      "arrival_time": "11:30",
+      "id": "3567"
+    },
+    {
+      "TrainId": 1516,
+      "TrainName": "Kolkata Express",
+      "train_number": "1516",
+      "source": "Kolkata",
+      "destination": "Varanasi",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+        "Kolkata Junction"
+        
+      ,
+      "departure_time": "07:45",
+      "arrival_time": "12:00",
+      "id": "9f88"
+    },
+    {
+      "TrainId": 1517,
+      "TrainName": "Bengaluru Express",
+      "train_number": "1517",
+      "source": "Bengaluru",
+      "destination": "Mysuru",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+         "Bengaluru City"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "12:30",
+      "id": "e898"
+    },
+    {
+      "TrainId": 1518,
+      "TrainName": "Chandigarh Express",
+      "train_number": "1518",
+      "source": "Chandigarh",
+      "destination": "Amritsar",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        
+         "Chandigarh Junction"
+        
+      ,
+      "departure_time": "08:15",
+      "arrival_time": "11:30",
+      "id": "7eae"
+    },
+    {
+      "TrainId": 1519,
+      "TrainName": "Hyderabad Express",
+      "train_number": "1519",
+      "source": "Hyderabad",
+      "destination": "Visakhapatnam",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+          "Hyderabad Deccan"
+        
+      ,
+      "departure_time": "07:30",
+      "arrival_time": "12:45",
+      "id": "f311"
+    },
+    {
+      "TrainId": 1520,
+      "TrainName": "Chennai Express",
+      "train_number": "1520",
+      "source": "Chennai",
+      "destination": "Coimbatore",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+           "Chennai Central"
+        
+      ,
+      "departure_time": "08:45",
+      "arrival_time": "13:00",
+      "id": "0652"
+    },
+    {
+      "TrainId": 1521,
+      "TrainName": "Jaipur Express",
+      "train_number": "1521",
+      "source": "Jaipur",
+      "destination": "Jodhpur",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+         "Jaipur Junction"
+        
+      ,
+      "departure_time": "07:45",
+      "arrival_time": "11:30",
+      "id": "8474"
+    },
+    {
+      "TrainId": 1522,
+      "TrainName": "Ahmedabad Express",
+      "train_number": "1522",
+      "source": "Ahmedabad",
+      "destination": "Surat",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+        "Ahmedabad Junction"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "12:15",
+      "id": "9a4a"
+    },
+    {
+      "TrainId": 1523,
+      "TrainName": "Bhubaneswar Express",
+      "train_number": "1523",
+      "source": "Bhubaneswar",
+      "destination": "Cuttack",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+       "Bhubaneswar Junction"
+        
+      ,
+      "departure_time": "07:30",
+      "arrival_time": "11:45",
+      "id": "b235"
+    },
+    {
+      "TrainId": 1524,
+      "TrainName": "Patna Express",
+      "train_number": "1524",
+      "source": "Patna",
+      "destination": "Gaya",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+          "Patna Junction"
+        
+      ,
+      "departure_time": "08:45",
+      "arrival_time": "12:30",
+      "id": "fe57"
+    },
+    {
+      "TrainId": 1525,
+      "TrainName": "Guwahati Express",
+      "train_number": "1525",
+      "source": "Guwahati",
+      "destination": "Dibrugarh",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+          "Guwahati Junction"
+        
+      ,
+      "departure_time": "09:15",
+      "arrival_time": "14:00",
+      "id": "0466"
+    },
+    {
+      "TrainId": 1526,
+      "TrainName": "Delhi Express",
+      "train_number": "1526",
+      "source": "Delhi",
+      "destination": "Ghaziabad",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        
+          "New Delhi"
+        
+      ,
+      "departure_time": "08:00",
+      "arrival_time": "09:30",
+      "id": "09a9"
+    },
+    {
+      "TrainId": 1527,
+      "TrainName": "Kolkata Express",
+      "train_number": "1527",
+      "source": "Kolkata",
+      "destination": "Howrah",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+          "Kolkata Junction"
+        
+      ,
+      "departure_time": "09:15",
+      "arrival_time": "11:00",
+      "id": "4c0a"
+    },
+    {
+      "TrainId": 1528,
+      "TrainName": "Mumbai Express",
+      "train_number": "1528",
+      "source": "Mumbai",
+      "destination": "Thane",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+          "Mumbai Central"
+        
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "09:15",
+      "id": "1fcd"
+    },
+    {
+      "TrainId": 1529,
+      "TrainName": "Chennai Express",
+      "train_number": "1529",
+      "source": "Chennai",
+      "destination": "Tiruchirappalli",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+           "Chennai Central"
+        
+      ,
+      "departure_time": "08:00",
+      "arrival_time": "11:30",
+      "id": "9604"
+    },
+    {
+      "TrainId": 1530,
+      "TrainName": "Hyderabad Express",
+      "train_number": "1530",
+      "source": "Hyderabad",
+      "destination": "Secunderabad",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+          "Hyderabad Deccan"
+        
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "09:45",
+      "id": "5cd0"
+    },
+    {
+      "TrainId": 1531,
+      "TrainName": "Pune Express",
+      "train_number": "1531",
+      "source": "Pune",
+      "destination": "Nashik",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        
+       "Pune Junction"
+        
+      ,
+      "departure_time": "09:15",
+      "arrival_time": "12:00",
+      "id": "9103"
+    },
+    {
+      "TrainId": 1532,
+      "TrainName": "Lucknow Express",
+      "train_number": "1532",
+      "source": "Lucknow",
+      "destination": "Kanpur",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+         "Lucknow Junction"
+        
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "09:45",
+      "id": "e6c3"
+    },
+    {
+      "TrainId": 1533,
+      "TrainName": "Kochi Express",
+      "train_number": "1533",
+      "source": "Kochi",
+      "destination": "Alappuzha",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+        "Kochi Junction"
+        
+      ,
+      "departure_time": "07:45",
+      "arrival_time": "10:00",
+      "id": "2e50"
+    },
+    {
+      "TrainId": 1534,
+      "TrainName": "Nagpur Express",
+      "train_number": "1534",
+      "source": "Nagpur",
+      "destination": "Raipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+         "Nagpur Junction"
+        
+      ,
+      "departure_time": "08:00",
+      "arrival_time": "10:45",
+      "id": "960a"
+    },
+    {
+      "TrainId": 1535,
+      "TrainName": "Bengaluru Express",
+      "train_number": "1535",
+      "source": "Bengaluru",
+      "destination": "Hubli",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+         "Bengaluru City"
+      
+      ,
+      "departure_time": "09:30",
+      "arrival_time": "12:15",
+      "id": "765f"
+    },
+    {
+      "TrainId": 1536,
+      "TrainName": "Ahmedabad Express",
+      "train_number": "1536",
+      "source": "Ahmedabad",
+      "destination": "Vadodara",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        "Ahmedabad Junction"
+        
+      ,
+      "departure_time": "08:15",
+      "arrival_time": "09:45",
+      "id": "1b6a"
+    },
+    {
+      "TrainId": 1537,
+      "TrainName": "Jaipur Express",
+      "train_number": "1537",
+      "source": "Jaipur",
+      "destination": "Ajmer",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+        "Jaipur Junction"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "11:00",
+      "id": "fd9b"
+    },
+    {
+      "TrainId": 1538,
+      "TrainName": "Chandigarh Express",
+      "train_number": "1538",
+      "source": "Chandigarh",
+      "destination": "Ludhiana",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+          "Chandigarh Junction"
+        
+      ,
+      "departure_time": "07:45",
+      "arrival_time": "09:30",
+      "id": "bdd8"
+    },
+    {
+      "TrainId": 1539,
+      "TrainName": "Mumbai Express",
+      "train_number": "1539",
+      "source": "Mumbai",
+      "destination": "Navi Mumbai",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+           "Mumbai Central"
+        
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "10:15",
+      "id": "d04f"
+    },
+    {
+      "TrainId": 1540,
+      "TrainName": "Chennai Express",
+      "train_number": "1540",
+      "source": "Chennai",
+      "destination": "Madurai",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+       "Chennai Central"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "12:30",
+      "id": "719e"
+    },
+    {
+      "TrainId": 1541,
+      "TrainName": "Kolkata Express",
+      "train_number": "1541",
+      "source": "Kolkata",
+      "destination": "Durgapur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+         "Kolkata Junction"
+        
+      ,
+      "departure_time": "08:15",
+      "arrival_time": "10:00",
+      "id": "8214"
+    },
+    {
+      "TrainId": 1542,
+      "TrainName": "Bengaluru Express",
+      "train_number": "1542",
+      "source": "Bengaluru",
+      "destination": "Mysuru",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+          "Bengaluru City"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "11:30",
+      "id": "02b9"
+    },
+    {
+      "TrainId": 1543,
+      "TrainName": "Chennai Express",
+      "train_number": "1543",
+      "source": "Chennai",
+      "destination": "Coimbatore",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+         "Chennai Central"
+        
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "11:45",
+      "id": "0a7a"
+    },
+    {
+      "TrainId": 1544,
+      "TrainName": "Hyderabad Express",
+      "train_number": "1544",
+      "source": "Hyderabad",
+      "destination": "Visakhapatnam",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+         "Hyderabad Deccan"
+        
+      ,
+      "departure_time": "09:00",
+      "arrival_time": "12:30",
+      "id": "875a"
+    },
+    {
+      "TrainId": 1545,
+      "TrainName": "Delhi Express",
+      "train_number": "1545",
+      "source": "Delhi",
+      "destination": "Faridabad",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+          "New Delhi"
+        
+      ,
+      "departure_time": "08:45",
+      "arrival_time": "10:15",
+      "id": "f218"
+    },
+    {
+      "TrainId": 1546,
+      "TrainName": "Jaipur Express",
+      "train_number": "1546",
+      "source": "Jaipur",
+      "destination": "Kota",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 610
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 510
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 410
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 310
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 210
+        }
+      ],
+      "current_location": 
+        
+        "Jaipur Junction"
+        
+      ,
+      "departure_time": "08:30",
+      "arrival_time": "10:30",
+      "id": "f489"
+    },
+    {
+      "TrainId": 1547,
+      "TrainName": "Chandigarh Express",
+      "train_number": "1547",
+      "source": "Chandigarh",
+      "destination": "Ambala",
+      "TotalSeats": 280,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 70,
+          "Price": 600
+        },
+        {
+          "Class": "AC2",
+          "Seats": 60,
+          "Price": 500
+        },
+        {
+          "Class": "AC3",
+          "Seats": 50,
+          "Price": 400
+        },
+        {
+          "Class": "S",
+          "Seats": 40,
+          "Price": 300
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 200
+        }
+      ],
+      "current_location": 
+        
+         "Chandigarh Junction"
+        
+      ,
+      "departure_time": "08:00",
+      "arrival_time": "09:15",
+      "id": "19e9"
+    },
+    {
+      "TrainId": 1548,
+      "TrainName": "Mumbai Express",
+      "train_number": "1548",
+      "source": "Mumbai",
+      "destination": "Panvel",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 620
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 520
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 420
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 320
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 220
+        }
+      ],
+      "current_location": 
+        
+          "Mumbai Central"
+        
+      ,
+      "departure_time": "09:15",
+      "arrival_time": "10:30",
+      "id": "f1b3"
+    },
+    {
+      "TrainId": 1549,
+      "TrainName": "Chennai Express",
+      "train_number": "1549",
+      "source": "Chennai",
+      "destination": "Tirupati",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+        
+         "Chennai Central"
+        
+      ,
+      "departure_time": "08:45",
+      "arrival_time": "11:00",
+      "id": "c3fc"
+    },
+    {
+      "TrainId": 1550,
+      "TrainName": "Hyderabad Express",
+      "train_number": "1550",
+      "source": "Hyderabad",
+      "destination": "Guntur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 640
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 540
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 440
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 340
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 240
+        }
+      ],
+      "current_location": 
+        
+          "Hyderabad Deccan"
+        
+      ,
+      "departure_time": "09:30",
+      "arrival_time": "12:45",
+      "id": "b88c"
+    },{
+      "TrainId": 1591,
+      "TrainName": "Delhi Duronto",
+      "train_number": "1502",
+      "source": "Delhi",
+      "destination": "Jaipur",
+      "TotalSeats": 320,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 650
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 550
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 450
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 350
+        },
+        {
+          "Class": "G",
+          "Seats": 60,
+          "Price": 250
+        }
+      ],
+      "current_location": [
+        {
+          "Running_station": "New Delhi"
+        }
+      ],
+      "departure_time": "08:30",
+      "arrival_time": "12:45",
+      "id": "8327"
+    }
+  ]
+}
