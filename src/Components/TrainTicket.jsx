@@ -29,10 +29,10 @@ const TrainSearch = () => {
         <Flex minWidth='500px' alignItems='center' gap='2' alignContent='center' margin='50px'>
      
      <Input w="250px" bg='white'
-       type="text" placeholder="Destination" value={destination} onChange={(e) => setDestination(e.target.value)}
+       type="text" placeholder="Destination" value={source}  onChange={(e) => setSource(e.target.value)}
      />
       <Input w="250px"  bg='white'
-      type="text" placeholder="Source" value={source} onChange={(e) => setSource(e.target.value)}
+      type="text" placeholder="Source"  value={destination} onChange={(e) => setDestination(e.target.value)}
      />
      <Button onClick={handleSearch}  colorScheme='blue' >Search Trains</Button>
    
