@@ -6,7 +6,7 @@ In the modern era of travel, efficient and user-friendly booking applications pl
 ## Project Type
 Frontend 
 
-## Deplolyed App
+## Deployed App
 Frontend: https://railyatri-d4jg9ghs7-adityasingh-bytes-projects.vercel.app/
 Backend: [https://deployed-site.whatever](https://railway-booking-3z2u.onrender.com/)
 
@@ -23,7 +23,7 @@ Backend: [https://deployed-site.whatever](https://railway-booking-3z2u.onrender.
 
 
 ## Video Walkthrough of the project
-[Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]](https://youtu.be/B7AcXjtAvyE)
+[Attach a very short video walkthrough of all of the features [ 1 - 3 minutes ]](https://youtu.be/B7AcXjtAvyE)
 
 
 ## Features
@@ -37,20 +37,18 @@ List out the key features of your application.
 - Login
 - SignUp
 - Secure Payment Gateway
-- Otp Verification
+- OTP Verification
 - Ticket Booking 
 
 
 
 ## Installation & Getting started
+
+```
 git clone repo-link
 cd ProjectFolderNae 
 npm install
 npm run dev
-```
-
-
-
 
 ```
 
@@ -75,7 +73,7 @@ Include screenshots as necessary.
 
 
 ## Credentials
-Provide user credentials for autheticated pages
+Provide user credentials for authenticated pages
 username:-user1,
 password:-password
 OR 
@@ -86,8 +84,8 @@ You can create your own account as well
 
 ## API Endpoints
 [In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.](https://railway-booking-3z2u.onrender.com/)
-GET /users/items - retrieve all the user informations
-GET /TrainDetails - retrieve all the Train informations
+GET /users/items - retrieve all the user information
+GET /TrainDetails - retrieve all the Train information
 POST/user - post any user data including the username and password
 
 
