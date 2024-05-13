@@ -14,6 +14,11 @@ const PaymentGateway = ({ ticketPrice }) => {
   });
   const [email, setEmail] = useState('');
   const [paymentSuccess, setPaymentSuccess] = useState(false);
+  const [otpSent, setOtpSent] = useState(false);
+  const [otp, setOtp] = useState(''); 
+  const [emailSent, setEmailSent] = useState(false);
+  const [OtpInput,setOtpInput] = useState('');
+  const [showPaymentAlert, setShowPaymentAlert] = useState(false); // State to track payment alert
   const navigate = useNavigate();
 
   const handlePaymentMethod = (method) => {
@@ -42,17 +47,49 @@ const PaymentGateway = ({ ticketPrice }) => {
     setCardDetails({ ...cardDetails, [name]: updatedValue });
   };
 
+  const sendOtp = () => {
+    // Send OTP via email
+    const otp = Math.floor(1000 + Math.random() * 9000);
+    setOtpInput(otp);
+    emailjs.send('service_v47dmee', 'template_q3ueofo', { otp, userEmail: email }, 'X5gZ8867dH8cjMFJW')
+      .then(() => {
+        setOtpSent(true); // Set state to indicate OTP has been sent
+        setEmailSent(true); // Set state to indicate email has been sent
+        // Show alert when OTP is sent
+        alert('OTP sent successfully!');
+      })
+      .catch((error) => {
+        console.error('Error sending OTP:', error);
+      });
+  };
+
   const handlePayment = () => {
     if (paymentMethod === 'UPI') {
-      // Generate a random string for the QR code content
-      const randomString = Math.random().toString(36).substring(2, 15);
-      // Display QR code with the random string
-      return <QRCode value={randomString} />;
+      sendOtp();
     } else if (paymentMethod === 'Card') {
       // Simulate payment success
       setPaymentSuccess(true);
+      // Set state to show payment success alert
+      setShowPaymentAlert(true);
       // Redirect to profile page after payment success
       navigate('/profile');
+    }
+  };
+
+  const handleOtpVerification = () => {
+    // Verify the entered OTP
+    if (otp == OtpInput) { 
+      // OTP verification successful
+      setPaymentSuccess(true);
+      // Set state to show payment success alert
+      setShowPaymentAlert(true);
+      // Redirect to profile page after payment success after 2 seconds
+      setTimeout(() => {
+        navigate('/profile');
+      }, 2000);
+    } else {
+      // OTP verification failed
+      alert('Incorrect OTP. Please try again.');
     }
   };
 
@@ -68,50 +105,93 @@ const PaymentGateway = ({ ticketPrice }) => {
 
           {paymentMethod === 'UPI' && (
             <div style={{ display:'flex',justifyContent:'center', margin:'20px 20px 20px 20px' }}>
-              {/* Display QR code for UPI payment */}
-              <QRCode value="random_placeholder_string" /> {/* Placeholder QR code */}
+              <QRCode value="random_placeholder_string" />
             </div>
           )}
 
           {paymentMethod === 'Card' && (
-            <div >
-              <Input
-                type="text"
-                placeholder="Card Number"
-                name="cardNumber"
-                value={cardDetails.cardNumber}
-                onChange={handleCardDetailsChange}
-              />
-              <div style={{display:'flex', gap:'20px', marginTop:'10px', marginBottom:'10px'}}>
-                <Input
-                  type="text"
-                  placeholder="Expiry Date"
-                  name="expiryDate"
-                  value={cardDetails.expiryDate}
-                  onChange={handleCardDetailsChange}
-                />
-                <Input
-                  type="text"
-                  placeholder="CVV"
-                  name="cvv"
-                  value={cardDetails.cvv}
-                  onChange={handleCardDetailsChange}
-                />
-              </div>
-              <Input
-                type="email"
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                style={{marginBottom:'10px'}}
-              />
-              <Button onClick={handlePayment}>Make Payment</Button>
-              {/* Display payment success alert */}
-              {paymentSuccess && (
-                <Alert status="success" position="fixed" top="20px" right="20px" width={"400px"}>
-                  <AlertIcon />
-                  Payment successful!
-                </Alert>
+            <div>
+              {otpSent ? (
+                <div>
+                  <Input
+                    type="text"
+                    placeholder="Enter OTP"
+                    value={otp}
+                    onChange={(e) => setOtp(e.target.value)}
+                  />
+                  <Button onClick={handleOtpVerification}>Verify OTP</Button>
+                </div>
+              ) : (
+                <div>
+                  <Input
+                    type="text"
+                    placeholder="Card Number"
+                    name="cardNumber"
+                    value={cardDetails.cardNumber}
+                    onChange={handleCardDetailsChange}
+                  />
+                  <div style={{display:'flex', gap:'20px', marginTop:'10px', marginBottom:'10px'}}>
+                    <Input
+                      type="text"
+                      placeholder="Expiry Date"
+                      name="expiryDate"
+                      value={cardDetails.expiryDate}
+                      onChange={handleCardDetailsChange}
+                    />
+                    <Input
+                      type="text"
+                      placeholder="CVV"
+                      name="cvv"
+                      value={cardDetails.cvv}
+                      onChange={handleCardDetailsChange}
+                    />
+                  </div>
+                  {emailSent && !otpSent && ( 
+                    <div>
+                      <Input
+                        type="text"
+                        placeholder="Enter OTP"
+                        value={otp}
+                        onChange={(e) => setOtp(e.target.value)}
+                      />
+                      <Button onClick={handleOtpVerification}>Verify OTP</Button>
+                    </div>
+                  )}
+                  {!emailSent && ( 
+                    <Input
+                      type="email"
+                      placeholder="Email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)} 
+                      style={{marginBottom:'10px'}}
+                    />
+                  )}
+                  {!emailSent && ( // Display "Send OTP" button if email is not sent
+                    <Button onClick={sendOtp}>Send OTP</Button>
+                  )}
+                  {/* <Button onClick={handlePayment}>Make Payment</Button> */}
+                 
+                  {emailSent && ( // Show alert when email is sent
+                    <Alert status="info" position="fixed" top="20px" right="20px" width={"400px"}>
+                      <AlertIcon />
+                      Email sent successfully!
+                    </Alert>
+                  )}
+
+                  {paymentSuccess && (
+                    <Alert status="success" position="fixed" top="20px" right="20px" width={"400px"}>
+                      <AlertIcon />
+                      Payment successful!
+                    </Alert>
+                  )}
+
+                  {/* {showPaymentAlert && ( // Show payment success alert
+                    <Alert status="success" position="fixed" top="20px" right="20px" width={"400px"}>
+                      <AlertIcon />
+                      Payment successful!
+                    </Alert>
+                  )} */}
+                </div>
               )}
             </div>
           )}
