@@ -2854,13 +2854,13 @@
       "departure_time": "09:30",
       "arrival_time": "14:45",
       "id": "8327"
-    },    {
-      "TrainId": 10790,
-      "TrainName": "Delhi Duronto",
-      "train_number": "10790",
-      "source": "Delhi",
-      "destination": "Jaipur",
-      "TotalSeats": 320,
+    }, {
+      "TrainId": 1901,
+      "TrainName": "Bangalore InterCity",
+      "train_number": "1901",
+      "source": "Bangalore",
+      "destination": "Chennai",
+      "TotalSeats": 300,
       "Date": [
       
         "2024-05-12",
@@ -2873,37 +2873,87 @@
         {
           "Class": "AC1",
           "Seats": 80,
-          "Price": 650
+          "Price": 630
         },
         {
           "Class": "AC2",
           "Seats": 70,
-          "Price": 550
+          "Price": 530
         },
         {
           "Class": "AC3",
           "Seats": 60,
-          "Price": 450
+          "Price": 430
         },
         {
           "Class": "S",
           "Seats": 50,
-          "Price": 350
+          "Price": 330
         },
         {
           "Class": "G",
-          "Seats": 60,
-          "Price": 250
+          "Seats": 40,
+          "Price": 230
         }
       ],
       "current_location": 
-  
-          "New Delhi"
-     
+    
+      "Bangalore City"
+      
       ,
       "departure_time": "10:30",
       "arrival_time": "15:45",
-      "id": "8327"
-    }
+      "id": "7e25"
+    } , {
+      "TrainId": 1902,
+      "TrainName": "Bangalore InterCity Express",
+      "train_number": "1902",
+      "source": "Bangalore",
+      "destination": "Chennai",
+      "TotalSeats": 300,
+      "Date": [
+      
+        "2024-05-12",
+        "2024-05-13",
+         "2024-05-14",
+         "2024-05-15"
+    
+    ],
+      "Classes": [
+        {
+          "Class": "AC1",
+          "Seats": 80,
+          "Price": 630
+        },
+        {
+          "Class": "AC2",
+          "Seats": 70,
+          "Price": 530
+        },
+        {
+          "Class": "AC3",
+          "Seats": 60,
+          "Price": 430
+        },
+        {
+          "Class": "S",
+          "Seats": 50,
+          "Price": 330
+        },
+        {
+          "Class": "G",
+          "Seats": 40,
+          "Price": 230
+        }
+      ],
+      "current_location": 
+    
+      "Bangalore City"
+      
+      ,
+      "departure_time": "11:30",
+      "arrival_time": "13:45",
+      "id": "7e25"
+    }  
   ]
 }
