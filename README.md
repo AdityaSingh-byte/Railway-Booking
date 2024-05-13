@@ -75,7 +75,7 @@ Include screenshots as necessary.
 ## Credentials
 Provide user credentials for authenticated pages
 username:-user1,
-password:-password
+password:-password1
 OR 
 You can create your own account as well 
 
