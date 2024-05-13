@@ -120,6 +120,12 @@ const PaymentGateway = ({ ticketPrice }) => {
                     onChange={(e) => setOtp(e.target.value)}
                   />
                   <Button onClick={handleOtpVerification}>Verify OTP</Button>
+                  {paymentSuccess && (
+                    <Alert status="success" position="fixed" top="20px" right="20px" width={"400px"}>
+                      <AlertIcon />
+                      Payment successful!
+                    </Alert>
+                  )}
                 </div>
               ) : (
                 <div>
@@ -169,7 +175,7 @@ const PaymentGateway = ({ ticketPrice }) => {
                   {!emailSent && ( // Display "Send OTP" button if email is not sent
                     <Button onClick={sendOtp}>Send OTP</Button>
                   )}
-                  {/* <Button onClick={handlePayment}>Make Payment</Button> */}
+           
                  
                   {emailSent && ( // Show alert when email is sent
                     <Alert status="info" position="fixed" top="20px" right="20px" width={"400px"}>
@@ -178,19 +184,8 @@ const PaymentGateway = ({ ticketPrice }) => {
                     </Alert>
                   )}
 
-                  {paymentSuccess && (
-                    <Alert status="success" position="fixed" top="20px" right="20px" width={"400px"}>
-                      <AlertIcon />
-                      Payment successful!
-                    </Alert>
-                  )}
+                  
 
-                  {/* {showPaymentAlert && ( // Show payment success alert
-                    <Alert status="success" position="fixed" top="20px" right="20px" width={"400px"}>
-                      <AlertIcon />
-                      Payment successful!
-                    </Alert>
-                  )} */}
                 </div>
               )}
             </div>
